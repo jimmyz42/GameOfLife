@@ -1,0 +1,5 @@
+/* Style for tables in the web page */
+
+table, th, td {
+	border: 1px solid black;
+	}
