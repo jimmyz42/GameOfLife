@@ -4,15 +4,15 @@ proj2
 a) I identified the concerns of modelling the game, displaying the game, the CSS style, the list of preset states, and the utility functions. I put these as GameOfLifeModel.js, GameOfLifeView.js, Style.css, PresetStates.js, and Utils.js respectively.
 
 b) The program modules are:
-index.html -> depends on GameOfLifeModel.js, GameOfLifeView.js, Style.css, PresetStates.js, Utils.js
-tests.html -> depends on tests.js, GameOfLifeModelTesting.js, PresetStates.js
-tests.js -> depends on GameOfLifeModelTesting.js, PresetStates.js
-GameOfLifeModel.js -> (none)
-GameOfLifeModelTesting.js -> (none)
-GameOfLifeView.js -> depends on PresetStates.js, Utils.js
-Style.css -> (none)
-PresetStates.js -> (none)
-Utils.js -> (none)
+- index.html -> depends on GameOfLifeModel.js, GameOfLifeView.js, Style.css, PresetStates.js, Utils.js
+- tests.html -> depends on tests.js, GameOfLifeModelTesting.js, PresetStates.js
+- tests.js -> depends on GameOfLifeModelTesting.js, PresetStates.js
+- GameOfLifeModel.js -> (none)
+- GameOfLifeModelTesting.js -> (none)
+- GameOfLifeView.js -> depends on PresetStates.js, Utils.js
+- Style.css -> (none)
+- PresetStates.js -> (none)
+- Utils.js -> (none)
 
 I think these dependencies are fine.
 
